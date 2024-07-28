@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import NewList from "./NewsList";
-import NewsCategory from "./NewsCategory";
 import Spinner from "./Spinner";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Footer from "./Footer";
 
 function News(props) {
   const [articles, setArticles] = useState([]);
@@ -25,6 +23,7 @@ function News(props) {
     setLoading(false);
     props.setProgress(100);
   };
+  
   useEffect(() => {
     updateNews();
   }, []);

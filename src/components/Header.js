@@ -6,7 +6,7 @@ const Header = () => {
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-sticky" style={{zIndex: '99', top: '0'}}>
   <div className="container-fluid">
     <Link className="navbar-brand fs-5 fst-italic fw-bold text-decoration-none text-warning me-4" to="/">News Express</Link>
-    <a className="text-white" type="button" data-bs-toggle="collapse" href="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a className="d-block d-md-none text-white" type="button" data-bs-toggle="collapse" href="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="bi bi-list"></span>
     </a>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">

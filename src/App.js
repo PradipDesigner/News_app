@@ -9,7 +9,8 @@ import Footer from "./components/Footer";
 import { Container } from "./components/Container";
 
 export default function App() {
-  const apiKey = process.env.REACT_APP_NEWS_API;
+  // const apiKey = process.env.REACT_APP_NEWS_API;
+  const apiKey = '5ce995c698604707a99101c6eda3fb82'
   const [progress, setProgress] = useState(0);
   return (
     <BrowserRouter>
